@@ -1,42 +1,194 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Karakter seti olarak utf-8 diyoruz bu türkçe kelimeleri de tanıyor. -->
+        <meta charset="UTF-8" />
+        <!-- Bu altta ki kod siteyi telefona uyumlu hale getirir -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Burası Başlıktır sitemizin sekme yerindeki ismidir -->
         <title>Deneme</title>
         <!-- Sekmede görülecek isim-->
     </head>
     <body>
+        <h2 id="SayfaBası"></h2>
         <h1>Samet Kagan Keskin</h1>    <!--h1 yazarak en büyük fontu bu kısma tanıdım-->
-        <h2>Hakkımda</h2>
-        <p>Şuan html ogrenme asamasındayım.En cok kullanılan html etiketlerini inceledim.Git ve Github ile ilgili calısma ve arastırmamı yaptım. 
+         <ul>
+            <li><a href="">Hakkımda </a></li>   
+            <li><a href="">Iletisim </a></li>
+            <li><a href="">Destek Ol </a></li>
+         </ul>   
+        <p >Şuan HTML ogrenme asamasındayım.En cok kullanılan html etiketlerini inceledim.Git ve Github ile ilgili calısma ve arastırmamı yaptım. 
         <p>Sırada html kısmında listeler ve diger özellikler kısmını tamamlayıp alıstırmalar yapıp pratikligimi arttıracagım.</p>
         </p>
-        <!--p etiketini acarak metin yazdım-->
-        <h3>Begendigim dizi ve filmler</h3>
-        <h4>Diziler</h4>        
-        <ul> <!--ul(unordered list) yazarak sırasız liste yapacagımı belirttim-->
-            <li>Breaking Bad</li>   <!--li yazarak tek tek  listeledim-->
-            <li>Sherlock Holmes</li>
-            <li>Snowpiercer</li>
-            <li>Westworld</li>
-            <li>Game of Thrones</li>
-        </ul>
-        <h4>Filmler</h4>
         <ul>
-            <li>Matrix</li>
-            <li>İnterstellar</li>
+            <li> <a href="#footer1"> Sevdigim Dizilere Git</a></li>   <!--ID bilgisine gitmesini sagladım-->
+            <li> <a href="#footer2"> Sevdigim Filmlere Git</a></li>
+            <li> <a href="#footer3"> Sevdigim Sportif Hava Ucuslarına Git</a></li>
+        </ul>
+        <!--p etiketini acarak metin yazdım-->
+        <h2> <u> Begendigim Dizi ve Filmler </u></h2>
+        <div>
+        <h2 id="footer1"> Diziler</h2>   <!--ID bilgisi ekledim-->
+        <ul>       <!--ul(unordered list) yazarak sırasız liste yapacagımı belirttim-->
+            <li>   <!--li yazarak tek tek  listeledim-->
+            <h2> <a href="https://www.imdb.com/title/tt0903747/" target="_blank"> Breaking Bad</a></h2>
+            <a href="https://www.imdb.com/title/tt0903747/" target="_blank">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTJiMzgwZTktYzZhZC00YzhhLWEzZDUtMGM2NTE4MzQ4NGFmXkEyXkFqcGdeQWpybA@@._V1_QL75_UX500_CR0,0,500,281_.jpg" width="300" height="200" alt="Breaking Bad" border="2">
+            </a>   
+            <p>Vince Gillian tarafından tasarlanmıs ABD drama televizyon dizisidir.50 yasında lisede kimya ogretmeni olan Walter White (Bryan Cranston),bir oto yıkamada ek is yapmaktadır ancak bir süre sonra ileri derecede akciger kanseri oldugunu ogrenir.Dizide Walter White ailesine para bırakabilmek icin uyusturucu kullanan muhitleri bilinen eski ogrencisi Jesse Pinkman(Aaron Paul) ile birlikte metamfetamin uretmeye baslar. </p>
+            <ul>
+                <h3><u>Basrol Oyuncular</u></h3>
+                <li>Bryan Cranston (Walter White)</li>
+                <li>Aaron Paul (Jesse Pinkman)</li>
+                <li>Anna Gunn (Skyler White)</li>
+                <li>Dean Norris (Hank Schrader)</li>
+            </ul>
+            </li>
+            <hr>
+            <li>
+            <h2><a href="https://www.imdb.com/title/tt0988045/" target="_blank"> Sherlock Holmes</h2>    
+                <a href="https://www.imdb.com/title/tt0988045/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo3158rI0XBGuLhlC7DHzNAvarogET0FVD8w&usqp=CAU"       
+                    width="300" height="200" alt="Sherlock Holmes" border="2">
+                </a>
+                <p>Sherlock,Mark Gatiss tarafından televizyon icin gelistirilen Sir Arthur Conan Doyle'ın aynı adı tasıyan romanlarına dayalı Birlesik Krallık dizisidir.Sherlock Holmes'ün(Benedict Cumberbatch) kredi kartları, cep telefonu ve bilgisayarı olmakla birlikte, otomobil ve metroyu kullanmaktadır. Dr. John Watson(Martin Freeman) ise alışılagelmişin dışında kâğıt ve kalem kullanarak hatıra yazmamakta, düzenli olarak blog sitesine yazılar göndermektedir.</p>
+                <ul>
+                    <h3><u>Basrol Oyuncular</u></h3>
+                    <li>Benedict Cumberbatch (Sherlock Holmes)</li>
+                    <li>Martin Freeman (Dr. John Watson )</li>
+                </ul>
+                <hr>
+                   
+            </li>
+            </li>
+            <h2><a href="https://www.imdb.com/title/tt6156584/" target="_blank"> Snowpiercer</h2>
+                <a href="https://www.imdb.com/title/tt6156584/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WGkILAtSqSUXMAFeTweQ_AZVLrTEr9lhrw&usqp=CAU"    
+                    width="300" height="200"  border="2"
+                    alt="Snowpiercer">
+                </a>
+                <p>Dünyanın donmuş bir çorak toprak haline gelmesinden yedi yıl sonra, insanlığın kalıntıları, sınıf savaşının, sosyal adaletsizliğin ve hayatta kalma siyasetinin oynadığı, dünyayı çevreleyen sürekli hareket eden bir trenin içinde yaşar.</p>
+                <ul>
+                    <h3><u>Basrol Oyuncular</u></h3>
+                <li>Tony Odullu Daveed Diggs (Andre Layton)  </li>
+                <li>Oscar Odullu Jennifer Connelly (Melanie Cavill) </li>
+                <li>Sean Bean (Bay Wilford)</li>
+                <li>Celina Carvajal (Miss Audrey)</li>
+                <li>Alison Wright (Ruth Wardell)</li>
+                </ul>
+            <hr>
+            <li>
+                <h2> <a href="https://www.imdb.com/title/tt0475784/ " target="_blank"> Westworld</h2>
+                <a href="https://www.imdb.com/title/tt0475784/ " target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Ej9C34SH5UQUPn45BU3E7sAHZ6ByWKWkvA&usqp=CAU"   
+                    width="300" height="200" border="2"
+                    alt="Westworld">
+                </a>
+                <p>Dizinin Westworld adlı parkta gelecekçi temasının hikâyesi ''yapay zekanın doğuşu ve günahın geleceği hakkında karanlık bir macera'' olarak tanımlandı.Bu gösteri, yapay bilincin doğuşu ve günahın evrimi hakkında karanlık bir maceradır. Yakın geleceğin ve yeniden hayal edilen geçmişin kesiştiği noktada geçen film, ne kadar asil veya ahlaksız olursa olsun her insan iştahının şımartılabileceği bir dünyayı araştırıyor.Yakın geleceğin ve yeniden hayal edilen geçmişin kesiştiği noktada, her insan iştahının sonuçsuz bir şekilde tatmin edilebileceği bir dünya bekliyor.</p>
+            <ul>
+                <h3><u>Basrol Oyuncular</u></h3>
+            </li>
+            <li>Anthony Hopkins (Dr. Robert Ford) Westworld'ün zeki yaratıcı yönetmeni </li>
+            <li>Ed Harris Siyah giyinen Adam, gizemli kötü adam. Westworld'ün % 51 hissesine sahip iş adamı. Genç William'dan 35 sene sonra Westworld'ü ziyaret eden yaşlı William</li>
+            <li>Evan Rachel Wood (Dolores Abernathy) tüm hayatını keşfeden robot Western kızı</li>
+            <li>James Marsden ( Teddy Flood) yerel güzellik peşinde olan robot silahşordur</li>
+            <li>Thandie Newton (Maeve Millay) Westworld'ün genelev patronu robot</li>
+            </ul>
+            <hr>
+
+            <li>
+                <h2><a href="https://www.imdb.com/title/tt0944947/" target="_blank"> Game Of Thrones</h2>
+                <a href="https://www.imdb.com/title/tt0944947/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpqTiIn3WC2ZKRP9LLIBhq59KHpZizh8r8ZQ&usqp=CAU" 
+                    width="300" height="200" border="2"
+                    alt="Game Of Thrones"> 
+                </a>
+                <p>George R. R. Martin'in epik fantezi serisi Buz ve Ateşin Şarkısı'ndan uyarlanmış olan dizi, adını serinin ilk kitabından almaktadır. İngiltere, Kanada, Hırvatistan, İzlanda, Malta, Fas ve İspanya'da çekilmiştir.Dokuz asil aile, Westeros toprakları üzerinde kontrol için savaşırken, eski bir düşman bin yıl boyunca uykuda kaldıktan sonra geri döner.</p>
+                <ul>
+                    <h3><u>Basrol Oyuncular</u></h3>
+                    <li>Kit Harington (Jon Snow)</li>
+                    <li>Emilia Clarke (Daenerys Targaryen)</li>
+                    <li>Peter Dinklage (Tyrion Lannister)</li>
+                    <li> Lena Headey (Cersei Lannister)</li>
+                    <li>Nikolaj Coster-Waldau  (Jaime Lannister)</li>
+                    <li> Maisie Williams (Arya Stark)</li>
+                </ul>    
+                </li>
+        </ul>
+    </div>
+    <div>
+        <h2 id="footer2">Filmler</h2>
+        <ul>
+            <li>
+                <h2><a href="https://www.imdb.com/title/tt0133093/" target="_blank">Matrix</a></h2>
+                <a href="https://www.imdb.com/title/tt0133093/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRINwHs-S3okS9SBSyRhJDJxfIwMCZqth_0w&usqp=CAU" alt="Matrix gorsel" width="300" height="200">
+                </a>
+                <p>Saygın bir yazılım şirketinde çalışan Thomas Anderson (Keanu Reeves), gecelerini "Neo" adı altında program kırarak ve Matrix'i araştırarak geçirir. Esrarengiz şekilde Trinity ve Morpheus ile tanışan Neo, yaşadığı dünyanın aslında beyninde gerçekleşen bir simülasyondan ibaret olduğunu öğrenir ve kendini bu durumdan kurtarmak için Morpheus'un önderliğindeki ekibe katılır. Neo gerçek dünyada ilk nefesini aldıktan sonra simülasyona tekrar girerek Matrix'in ne olduğunu kavrayacak ve kurtarılma nedenini öğrenerek gelişen olaylar çerçevesinde yeni kimliğini tanımaya çalışacaktır.</p>
+                <ul>
+                    <h3><u>Basrol Oyuncular</u></h3>
+                    <li>Keanu Reeves  (Neo)</li>
+                    <li>Laurence Fishburne  (Morpheus) </li>
+                    <li>Carrie-Anne Moss  (Trinity) </li>
+                    <li>Hugo Weaving (Ajan Smith</li>
+                </ul>
+                <hr>
+            </li>
+            <li>
+                <h2><a href="https://www.imdb.com/title/tt0816692/" target="_blank"> Interstellar </a></h2>
+                <a href="https://www.imdb.com/title/tt0816692/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR785tyxzg_6NHoHXzwbcXHKH4xSLpxKAahOg&usqp=CAU" alt="Interstellar resim" width="300" height="200">
+                </a>
+                <p> Christopher Nolan tarafından yönetilen Yakın bir gelecekte, tahıl ürünlerinin ölmesine neden olan bir küf yüzünden medeniyet gerileyerek tarım toplumu seviyesine düşmüştür. Dul bir mühendis ve eski bir NASA pilotu olan Joseph Cooper, ailesi ile birlikte bir tarla işletmektedir. O artık bir çiftçidir. 15 yaşında bir oğlu (Tom Cooper) ve 10 yaşında bir kızı (Murphy "Murph" Cooper) vardır. Bir toz fırtınasından sonra, Murphy'nin yatak odasının zemininde açıklanamayacak şekilde garip toz desenleri belirir; anomaliyi bir hayalete bağlar. Cooper sonunda desenlerin yer çekimi değişimlerinden kaynaklandığını ve bunların ikili kodda coğrafi koordinatları temsil ettiğini düşünür. Cooper'ın kızı Murphy; odasında bir hayaletin kendisi ile iletişim kurduğunu düşünmektedir. Sonrasında Murph'ün hayaletinin gönderdiği bilinmeyen istihbaratın yer çekimsel dalga kullanarak kodlandığını keşfederler.</p>
+                <ul>
+                    <h3><u>Basrol Oyuncular</u></h3>
+                    <li>Matthew McConaughey (Cooper)</li>
+                    <li>Anne Hathaway (Amelia Brand)</li>
+                    <li>Jessica Chastain (Murphy)</li>
+                    
+                </ul>
+            </li>
+
+            <hr><hr><hr>
             <li>Tenet</li>
             <li>İnception</li>
             <li>Lucy</li>
+            <li>Ex Machina</li>
         </ul>
     </ul>
+    </div>
 
     </body>
-    <h4>En güzel sportif hava ucusları</h5>
+    <h2 id="footer3">En Güzel Sportif Hava U cusları</h2>
         <ol>    <!-- ol (ordered list) yazarak sıralı liste yapacagımı belirttim-->
-            <li>Yamacparasütü</li>
-            <li>Yelkenkanat</li>
-            <li>Planör</li>
+            <li>
+                <h3><u>Yamacparasütü</u></h3>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4wcAA0Mj6p2LNTfqKWf_COf1a4vrmNjLFMg&usqp=CAU" alt="Yamacparasütü" width="300" height="200">
+                 <p>Yamaç paraşütü, hava sporlarıyla ilgilenen birkaç kişi tarafından 1980'li yılların başlarında bulunan, serbest paraşütlerle yamaçlardan koşarak kalkmaya olanak sağlayan bir ekstrem spor türüdür. Sivil havacılık mevzuatlarına göre çok hafif hava aracı (ÇHHA) sınıfına girer.</p>
+                 <ul>
+                    <li>Baslangıc Egitimi P2</li>
+                    <li>Orta Seviye Egitim P3</li>
+                    <li>Pilot Egitimi P4</li>
+                    <li>İleri Seviye Egitim P5</li>
+                 </ul>
+            </li>
+            <hr>
+            <li>
+                <H3><U>Yelken Kanat</U></H3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYVT6S-VAMn4H52re1y2Q1Ni_b-ktM23bfQQ&usqp=CAU" alt="Yelken Kanat" width="300" height="200">
+                <p>Yelken kanat ya da diğer adıyla Delta kanat bir hava sporudur. Bu spor, diğer hava sporlarından yamaç paraşütü ve planörcülüğün bir karışımıdır. Daha çok alüminyum ya da kompozitten yapılmış bir iskeletinin bir kumaş ile kaplanmasıyla yapılmış bir kanattan ve onun altına pilotun binmesi için asılı biçimde bağlanmış bir tutunma düzeneğinden oluşur. Kanat şekli delta (Yunan harfi Δ)biçiminde olduğu için çoğu zaman yelken kanat yerine delta kanat olarak anılır.</p>
+            </li>
+            <li>
+                <h3><u>Planör</u></h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC8rp1rkJaU9wxQL9f6THtD-jOmR8PKYxr9Q&usqp=CAU" alt="Planör" width="300" height="200">
+                <p>Planör, (Fransızca: Planeur, süzülerek uçmak) üzerinde hiçbir güç kaynağı olmadan uçabilen sabit kanatlı hava taşıtı. Bazı planörlerin motorlu modelleri de vardır.
+
+                    Kokpiti tek veya çift kişilik olabilir. Vinç sistemiyle, bir uçağın çekmesiyle veya bazı planörlerin kendi sahip olduğu sadece kalkış için kullanılan motorları ile havalanırlar. Belli bir yükseklikte çekici ile bağlantısını koparıp atmosferdeki hava akımlarından yararlanarak uçabilirler. Özellikle düzenlenen yarışmalarda amaç, en kısa zamanda en uzun yolu katetmektir.</p>
+            </li>
         </ol>
-
-
+        
+        <a href="#SayfaBası"> Basa Don</a> <br>
+        <a href="https://www.goodreads.com/book/show/15823480-anna-karenina" target="_blank">
+            Goodreads Linki İçin Tıklayın
+        </a>
 </html>
